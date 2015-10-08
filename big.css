@@ -36,6 +36,13 @@ main{
   border-right: 1px solid black;
   float: left;
   margin-left: 2.4%;
+  background-image: url('img/map.png');
+  background-position: center;
+  background-repeat: repeat-y;
+}
+aside{
+  transition: all .2s ease-in-out;
+  opacity: 0;
 }
 .left{
   width: 48%;
@@ -45,21 +52,29 @@ main{
   width: 48%;
   float: right;
 }
+.left img, .right img{
+  transform: scale(1.8,1.8);
+}
+#startLeft, #startRight{
+  height: 100px;
+  width: 100%;
+}
 p{
-  width: 50%;
+  width: 75%;
   padding: 10px;
   background-color: #FBF3E7;
   border-radius: 5px;
-  font-size: 1.1em;
+  font-size: 1.4em;
   line-height: 125%;
 }
 h1{
-  font-size: 4em;
+  font-size: 6em;
 }
 /* Footer */
 footer{
   width: 95%;
   height: 50px;
+  padding-top: 100px;
   margin: auto;
   border: 1px solid black;
   border-top: none;

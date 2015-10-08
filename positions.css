@@ -1,15 +1,53 @@
 @media only screen and (min-width: 601px) {
-.leftP1{
-  margin-left: 2%;
+/* Left Side*/
+#magnify{
+  margin: 500px 0 0 60%;;
 }
-.leftP2{
-  margin-left: 40%;
+#leftP1{
+  margin: 350px 0 0 20%;
 }
-.leftP3{
-  margin-left: 2%;
+#globe{
+  margin: 500px 0 0 60%;
 }
-.leftP4{
-  margin-left: 40%;
+#leftP2{
+  margin: 500px 0 0 50%;
+}
+#arrow{
+  margin: 450px 0 0 40%;
+}
+#leftP3{
+  margin: 450px 0 0 10%;
+}
+#leftH1{
+  margin: 450px 0 0 45%;
+}
+#leftP4{
+  margin: 450px 0 0 50%;
+}
+#leftH2{
+  margin: 450px 0 0 45%;
+}
+/* Right Side */
+#rightP1{
+  margin: 550px 0 0 30%;
+}
+#rightP2{
+  margin: 1000px 0 0 25%;
+}
+#rightH1{
+  margin: 530px 0 0 45%;
+}
+#rightP3{
+  margin: 500px 0 0 10%;
+}
+#rightP4{
+  margin: 970px 0 0 30%;
+}
+#computer{
+  margin: 460px 0 0 50%;
+}
+#rightP5{
+ margin: 550px 0 0 20%;
 }
 
 }
