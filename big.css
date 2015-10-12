@@ -86,14 +86,14 @@ aside{
 }
 .left{
   width: 48%;
-  height: 6000px;
+  height: 6200px;
   float: left;
   background-image: url('img/leftMap.png');
   background-repeat: repeat-y;
 }
 .right{
   width: 48%;
-  height: 6000px;
+  height: 6200px;
   float: right;
   background-image: url('img/rightMap.png');
   background-repeat: repeat-y;
@@ -133,6 +133,8 @@ footer{
   margin: auto;
   text-align: center;
   clear: both;
+  position: relative;
+  bottom: 150px;
   background-image: url('img/bottommiddle.png');
 }
 footer a{
@@ -140,14 +142,14 @@ footer a{
   font-size: 14px;
 }
 .bottomLeft{
-  width: 190px;
+  width: 271px;
   height: 150px;
   background-image: url('img/bottomleft.png');
   background-repeat: no-repeat;
   float: left;
 }
 .bottomRight{
-  width: 190px;
+  width: 271px;
   height: 150px;
   background-image: url('img/bottomright.png');
   background-repeat: no-repeat;
