@@ -68,9 +68,13 @@ header img{
   height: 5500px;
   width: 100%;
   margin-top: 300px;
-  background-image: url('img/trail.png');
+  /*background-image: url('img/trail.png');*/
   background-position: center;
   background-repeat: repeat-y;
+  position: absolute;
+}
+.trail svg{
+  left: 43%;
   position: absolute;
 }
   /* Content */
