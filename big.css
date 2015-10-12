@@ -21,38 +21,64 @@ a:active {
 }
 /* Header */
 header{
-width: 95%;
-height: 50px;
-padding-top: 50px;
-margin: auto;
-border: 1px solid black;
-border-bottom: none;
-text-align: center;
-clear: both;
+  width: 95%;
+  height: 150px;
+  background-image: url('img/topmiddle.png');
+  background-repeat: repeat-x;
+  background-position: -150px;
+  margin: auto;
+  text-align: center;
+  clear: both;
+  position: relative;
+}
+header img{
+  width: 64%;
+}
+.topLeft{
+  width: 271px;
+  height: 150px;
+  background-image: url('img/topleft.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  float: left;
+}
+.topRight{
+  width: 271px;
+  height: 150px;
+  background-image: url('img/topright.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  display: inline;
+  float: right;
 }
 /* Main Content */
   /* Parallaxed Trail */
+.disappear{
+  opacity: 0;
+  width: 300px;
+  height: 200px;
+  margin-top: -180px;
+  background-image: url('img/mapdissapear.png');
+  background-repeat: no-repeat;
+  left: 40%;
+  position: fixed;
+  z-index: 1;
+}
 .trail{
-  height: 5200px;
+  height: 5500px;
   width: 100%;
   margin-top: 300px;
   background-image: url('img/trail.png');
   background-position: center;
   background-repeat: repeat-y;
   position: absolute;
-  z-index: 1;
 }
   /* Content */
 main{
-  width: 95%;
-  margin: auto;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  width: 92.75%;
+  margin: -150px 0 0 3.75%;
   float: left;
-  margin-left: 2.4%;
-  background-image: url('img/map.png');
-  background-position: center;
-  background-repeat: repeat-y;
+  background-image: url('img/mapmiddle.png');
 }
 aside{
   transition: all .2s ease-in-out;
@@ -60,16 +86,26 @@ aside{
 }
 .left{
   width: 48%;
+  height: 6000px;
   float: left;
+  background-image: url('img/leftMap.png');
+  background-repeat: repeat-y;
 }
 .right{
   width: 48%;
+  height: 6000px;
   float: right;
+  background-image: url('img/rightMap.png');
+  background-repeat: repeat-y;
+  background-position: right;
 }
 .left img, .right img{
   transform: scale(1.8,1.8);
+  position: relative;
+  z-index: 1;
 }
 #startLeft, #startRight{
+  margin-top: 250px;
   height: 100px;
   width: 100%;
 }
@@ -81,25 +117,41 @@ p{
   font-size: 1.4em;
   color: #3A302E;
   line-height: 125%;
+  position: relative;
+  z-index: 1;
 }
 h1{
-  font-size: 6em;
+  font-size: 8em;
   color: #3A302E;
+  position: relative;
+  z-index: 1;
 }
 /* Footer */
 footer{
   width: 95%;
-  height: 50px;
-  padding: 100px 0 50px 0;
+  height: 150px;
   margin: auto;
-  border: 1px solid black;
-  border-top: none;
   text-align: center;
   clear: both;
+  background-image: url('img/bottommiddle.png');
 }
 footer a{
   color: black;
   font-size: 14px;
+}
+.bottomLeft{
+  width: 190px;
+  height: 150px;
+  background-image: url('img/bottomleft.png');
+  background-repeat: no-repeat;
+  float: left;
+}
+.bottomRight{
+  width: 190px;
+  height: 150px;
+  background-image: url('img/bottomright.png');
+  background-repeat: no-repeat;
+  float: right;
 }
 
 }
