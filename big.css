@@ -77,6 +77,9 @@ header img{
   left: 43%;
   position: absolute;
 }
+.trail .circle{
+  opacity: 0;
+}
   /* Content */
 main{
   width: 92.75%;
