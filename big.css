@@ -1,6 +1,7 @@
 @media only screen and (min-width: 700px) {
 body{
   background-color: #EFD6AD;
+  background-image: url('img/mapmiddle.png');
   overflow-x: hidden;
 }
 a:link {
@@ -53,17 +54,7 @@ header img{
 }
 /* Main Content */
   /* Parallaxed Trail */
-.disappear{
-  opacity: 0;
-  width: 300px;
-  height: 200px;
-  margin-top: -180px;
-  background-image: url('img/mapdissapear.png');
-  background-repeat: no-repeat;
-  left: 40%;
-  position: fixed;
-  z-index: 1;
-}
+
 .trail{
   height: 5500px;
   width: 100%;
@@ -75,6 +66,7 @@ header img{
 }
 .trail svg{
   left: 43%;
+  height: 6000px;
   position: absolute;
 }
 .trail .circle{
@@ -117,7 +109,7 @@ aside{
   width: 100%;
 }
 p{
-  width: 75%;
+  width: 85%;
   padding: 10px;
   background-color: #FBF3E7;
   border-radius: 5px;

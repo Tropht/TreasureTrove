@@ -1,6 +1,90 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 body{
-
+  background-image: url('img/mapmiddle.png');
+  background-color: #EFD6AD;
+  overflow-x: hidden;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+a:active {
+	color: black;
+	text-decoration: none;
+}
+/* Header */
+header img{
+    max-width: 100%;
+}
+/* Main Content */
+  /* Trail */
+.trail svg{
+  margin-top: 250px;
+  height: 5800px;
+  left: 43%;
+  position: absolute;
+}
+.trail .circle{
+  opacity: 0;
+}
+  /* Content */
+main{
+  width: 92.75%;
+  margin: -150px 0 0 3.75%;
+  float: left;
+}
+aside{
+  transition: all .2s ease-in-out;
+  opacity: 0;
+}
+.left{
+  width: 48%;
+  height: 6000px;
+  float: left;
+}
+.right{
+  width: 48%;
+  height: 6000px;
+  float: right;
+}
+#startLeft, #startRight{
+  margin-top: 250px;
+  height: 100px;
+  width: 100%;
+}
+p{
+  width: 95%;
+  padding: 10px;
+  background-color: #FBF3E7;
+  border-radius: 5px;
+  font-size: 1.1em;
+  color: #3A302E;
+  line-height: 125%;
+  position: relative;
+  z-index: 1;
+}
+h1{
+  font-size: 4em;
+  color: #3A302E;
+  position: relative;
+  z-index: 1;
+}
+/* Footer */
+footer{
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  clear: both;
+  position: relative;
+  bottom: 30px;
 }
 
 }
