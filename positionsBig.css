@@ -2,18 +2,35 @@
 /* Left Side*/
 #magnify{
   margin: 500px 0 0 60%;
+  animation:grow 5s linear infinite;
+}
+@keyframes grow {
+  50% {transform: scale(1.2,1.2)}
+  100% {transform:scale(1,1);}
 }
 #leftP1{
   margin: 350px 0 0 20%;
 }
 #globe{
   margin: 500px 0 0 60%;
+  transform: rotateZ(-25deg);
+  animation:rotate 15s infinite;
+}
+@keyframes rotate {
+  50% {transform: rotateZ(25deg);}
+  100% {transform: rotateZ(-25deg);}
 }
 #leftP2{
   margin: 500px 0 0 50%;
 }
 #arrow{
   margin: 450px 0 0 40%;
+  transform: rotateX(-360deg);
+  animation: flipUp 4s infinite;
+}
+@keyframes flipUp{
+  50%{transform: rotateX(360deg)}
+  100%{transform: scale(1,1)};
 }
 #leftP3{
   margin: 450px 0 0 10%;
@@ -21,11 +38,17 @@
 #leftH1{
   margin: 450px 0 0 45%;
 }
+#leftH1 h1{
+  opacity: 0;
+  animation: flashGrow 2s infinite;
+}
 #leftP4{
   margin: 450px 0 0 50%;
 }
 #leftH2{
   margin: 450px 0 0 45%;
+  transform: rotateZ(-25deg);
+  animation: rotate 15s infinite;
 }
 /* Right Side */
 #rightP1{
@@ -37,6 +60,13 @@
 #rightH1{
   margin: 530px 0 0 45%;
 }
+#rightH1 h1{
+  opacity: 0;
+  animation: flashGrow 2s infinite;
+}
+@keyframes flashGrow{
+  100%{transform: scale(1.2,1.2); opacity: 1;}
+}
 #rightP3{
   margin: 500px 0 0 10%;
 }
@@ -44,10 +74,14 @@
   margin: 970px 0 0 30%;
 }
 #computer{
-  margin: 460px 0 0 50%;
+  margin: 460px 0 0 20%;
+  animation: grow 4s infinite;
 }
 #rightP5{
  margin: 550px 0 0 20%;
+}
+#mark{
+  margin-top: 90px;
 }
 
 }

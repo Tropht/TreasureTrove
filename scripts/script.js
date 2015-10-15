@@ -62,6 +62,13 @@ var leftP4Waypoint = new Waypoint({
     $('#leftH2').css('opacity',1);
   }
 });
+var markWaypoint = new Waypoint({
+  element: document.getElementById('leftH2'),
+  handler: function() {
+    $('.left aside').css('opacity',0);
+    $('#mark').css('opacity',1);
+  }
+});
 
 // Right Side Waypoints
 var startWaypointRight = new Waypoint({
